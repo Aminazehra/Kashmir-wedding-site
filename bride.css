@@ -1,0 +1,1322 @@
+:root{
+    --primary:#ff0066;
+}
+.bride{
+    width: auto;
+    height:1000px;
+    
+}
+.heading{
+    width: auto;
+    height: 80px;
+    text-align: center;
+    background: transparent;
+    border-bottom: 1px solid rgba(73, 24, 5, 0.6);
+    box-shadow:10px 0 23px rgba(173, 6, 6, 0.5);
+    background:url(WED.jpg) no-repeat ;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+   
+}
+.heading h3{
+    font-weight: 300;
+    font-size: 30px;
+    font-family: 'Great Vibes', cursive;
+  }
+.row1{
+    width: auto;
+    height: 400px;
+    margin-top: 150px;
+}
+.rect1{
+    width: 300px;
+    height: 400px;
+    float: left;
+    background-image: url(lehanga.jpg);
+    background-size: cover;
+    transition: 1s;
+    margin-left: 150px;
+    border-radius: 5%;
+}
+.rect1:hover{
+    box-shadow: inset 20px 0 50px black;
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+#btn-1{
+    width:200px;
+    height: 50px;
+    margin-top: 410px;
+    border: none;
+    margin-left: 50px;
+    border-radius: 30%;
+    color: black;
+}
+.rect1 #btn-1:hover{
+    background:var(--primary) ;
+    color:#f5f5f5 ;
+}
+
+.rect2{
+    width: 300px;
+    height: 400px;
+    background: url(4470.jpg)no-repeat;
+    background-size: cover;
+    float: left;
+    transition: 1s;
+    margin-left: 20px;
+    border-radius: 5%;
+}
+.rect2:hover{
+    box-shadow: inset 20px 0 50px black;
+    transform: scale(1.2);
+    z-index: 2;
+}
+#btn-2{
+    width:200px;
+    height: 50px;
+    margin-top: 410px;
+    border: none;
+    margin-left: 50px;
+    border-radius: 30%;
+    color: black;
+}
+.rect2 #btn-2:hover{
+    background:var(--primary) ;
+    color:#f5f5f5 ;
+}
+.rect3{
+    width: 300px;
+    height: 400px;
+    background: url(e210.jpg) no-repeat;
+    background-size: cover;
+    float: left;
+    transition: 1s;
+    margin-left: 20px;
+    border-radius: 5%;
+}
+.rect3:hover{
+    box-shadow: inset 20px 0 50px black;
+    transform: scale(1.2);
+    z-index: 2;
+}
+#btn-3{
+    width:200px;
+    height: 50px;
+    margin-top: 410px;
+    border: none;
+    margin-left: 50px;
+    border-radius: 30%;
+    color: black;
+}
+.rect3 #btn-3:hover{
+    background:var(--primary) ;
+    color:#f5f5f5 ;
+}
+.row2{
+    width: 913px;
+    height: 400px;
+    margin: auto;
+    margin-top: 150px;
+}
+.rect4{
+    width: 300px;
+    height: 400px;
+    background: url(arabi6.jpg ) no-repeat ;
+    background-size: cover;
+    float: left;
+    margin-left: 150px;
+    transition: 1s;
+    border-radius: 5%;
+}
+.rect4:hover{
+    box-shadow: inset 20px 0 50px black;
+    transform: scale(1.2);
+    z-index: 2;
+}
+#btn-4{
+    width:200px;
+    height: 50px;
+    margin-top: 410px;
+    border: none;
+    margin-left: 50px;
+    border-radius: 30%;
+    color: black;
+}
+.rect4 #btn-4:hover{
+    background:var(--primary) ;
+    color:#f5f5f5 ;
+}
+.rect5{
+    width: 300px;
+    height: 400px;
+    background: url(in39.jpg) no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left: 20px;
+    transition: 1s;
+    border-radius: 5%;
+}
+.rect5:hover{
+    box-shadow: inset 20px 0 50px black;
+    transform: scale(1.2);
+    z-index: 2;
+}
+#btn-5{
+    width:200px;
+    height: 50px;
+    margin-top: 410px;
+    border: none;
+    margin-left: 50px;
+    border-radius: 30%;
+    color: black;
+}
+.rect5 #btn-5:hover{
+    background:var(--primary) ;
+    color:#f5f5f5 ;
+}
+/*lehangaa Section*/
+.row11{
+    width: auto;
+    height: 400px;
+    margin-top: 150px;
+}
+.rect11{
+    width: 250px;
+    height: 400px;
+    float: left;
+    background-image: url(l1.webp);
+    background-size: cover;
+    transition: 1s;
+    margin-left: 100px;
+    border-radius: 5%;
+}
+.rect11:hover{
+    box-shadow: inset 20px 0 50px black;
+    transform: scale(1.2);
+    z-index: 2;
+    
+}
+
+.rect12{
+    width: 250px;
+    height: 400px;
+    background: url(l2.jpeg)no-repeat;
+    background-size: cover;
+    float: left;
+    transition: 1s;
+    margin-left: 20px;
+    border-radius: 5%;
+}
+.rect12:hover{
+    box-shadow: inset 20px 0 50px black;
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.rect13{
+    width: 250px;
+    height: 400px;
+    background: url(l3.jpeg) no-repeat;
+    background-size: cover;
+    float: left;
+    transition: 1s;
+    margin-left: 20px;
+    border-radius: 5%;
+}
+.rect13:hover{
+    box-shadow: inset 20px 0 50px black;
+    transform: scale(1.2);
+    z-index: 2;
+}
+.rect14{
+    width: 250px;
+    height: 400px;
+    background: url(l4.jpeg) no-repeat;
+    background-size: cover;
+    float: left;
+    transition: 1s;
+    margin-left: 20px;
+    border-radius: 5%;
+}
+.rect14:hover{
+    box-shadow: inset 20px 0 50px black;
+    transform: scale(1.2);
+    z-index: 2;
+}
+.row12{
+    width: auto;
+    height: 400px;
+    margin-top: 150px;
+}
+.rect21{
+    width: 250px;
+    height: 400px;
+    background: url(l5.jpeg) no-repeat ;
+    background-size: cover;
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+    transition: 1s;
+    border-radius: 5%;
+}
+.rect21:hover{
+    box-shadow: inset 20px 0 50px black;
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.rect22{
+    width: 250px;
+    height: 400px;
+    background: url(l6.jpeg) no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left: 20px;
+    margin-top: 100px;
+    transition: 1s;
+    border-radius: 5%;
+}
+.rect22:hover{
+    box-shadow: inset 20px 0 50px black;
+    transform: scale(1.2);
+    z-index: 2;
+}
+.rect23{
+    width: 250px;
+    height: 400px;
+    background: url(l7.jpeg) no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left: 20px;
+    margin-top: 100px;
+    transition: 1s;
+    border-radius: 5%;
+}
+.rect23:hover{
+    box-shadow: inset 20px 0 50px black;
+    transform: scale(1.2);
+    z-index: 2;
+}
+.rect24{
+    width: 250px;
+    height: 400px;
+    background: url(l8.jpeg) no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left: 20px;
+    margin-top: 100px;
+    transition: 1s;
+    border-radius: 5%;
+}
+.rect24:hover{
+    box-shadow: inset 20px 0 50px black;
+    transform: scale(1.2);
+    z-index: 2;
+}
+.row13{
+    width: auto;
+    height: 400px;
+    margin-top: 150px;
+}
+.rect31{
+    width: 250px;
+    height: 400px;
+    background: url(l5.jpeg) no-repeat ;
+    background-size: cover;
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+    transition: 1s;
+    border-radius: 5%;
+}
+.rect31:hover{
+    box-shadow: inset 20px 0 50px black;
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.rect32{
+    width: 250px;
+    height: 400px;
+    background: url(l6.jpeg) no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left: 20px;
+    margin-top: 100px;
+    transition: 1s;
+    border-radius: 5%;
+}
+.rect32:hover{
+    box-shadow: inset 20px 0 50px black;
+    transform: scale(1.2);
+    z-index: 2;
+}
+.rect33{
+    width: 250px;
+    height: 400px;
+    background: url(l7.jpeg) no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left: 20px;
+    margin-top: 100px;
+    transition: 1s;
+    border-radius: 5%;
+}
+.rect33:hover{
+    box-shadow: inset 20px 0 50px black;
+    transform: scale(1.2);
+    z-index: 2;
+}
+.rect34{
+    width: 250px;
+    height: 400px;
+    background: url(l8.jpeg) no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left: 20px;
+    margin-top: 100px;
+    transition: 1s;
+    border-radius: 5%;
+}
+.rect34:hover{
+    box-shadow: inset 20px 0 50px black;
+    transform: scale(1.2);
+    z-index: 2;
+}
+.row14{
+    width: auto;
+    height: 400px;
+    margin-top: 150px;
+}
+.rect41{
+    width: 250px;
+    height: 400px;
+    background: url(l5.jpeg) no-repeat ;
+    background-size: cover;
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+    transition: 1s;
+    border-radius: 5%;
+}
+.rect41:hover{
+    box-shadow: inset 20px 0 50px black;
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.rect42{
+    width: 250px;
+    height: 400px;
+    background: url(l6.jpeg) no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left: 20px;
+    margin-top: 100px;
+    transition: 1s;
+    border-radius: 5%;
+}
+.rect42:hover{
+    box-shadow: inset 20px 0 50px black;
+    transform: scale(1.2);
+    z-index: 2;
+}
+.rect43{
+    width: 250px;
+    height: 400px;
+    background: url(l7.jpeg) no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left: 20px;
+    margin-top: 100px;
+    transition: 1s;
+    border-radius: 5%;
+}
+.rect43:hover{
+    box-shadow: inset 20px 0 50px black;
+    transform: scale(1.2);
+    z-index: 2;
+}
+.rect44{
+    width: 250px;
+    height: 400px;
+    background: url(l8.jpeg) no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left: 20px;
+    margin-top: 100px;
+    transition: 1s;
+    border-radius: 5%;
+}
+.rect44:hover{
+    box-shadow: inset 20px 0 50px black;
+    transform: scale(1.2);
+    z-index: 2;
+}
+.row15{
+    width: auto;
+    height: 400px;
+    margin-top: 150px;
+}
+.rect51{
+    width: 250px;
+    height: 400px;
+    background: url(l5.jpeg) no-repeat ;
+    background-size: cover;
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+    transition: 1s;
+    border-radius: 5%;
+}
+.rect51:hover{
+    box-shadow: inset 20px 0 50px black;
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.rect52{
+    width: 250px;
+    height: 400px;
+    background: url(l6.jpeg) no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left: 20px;
+    margin-top: 100px;
+    transition: 1s;
+    border-radius: 5%;
+}
+.rect52:hover{
+    box-shadow: inset 20px 0 50px black;
+    transform: scale(1.2);
+    z-index: 2;
+}
+.rect53{
+    width: 250px;
+    height: 400px;
+    background: url(l7.jpeg) no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left: 20px;
+    margin-top: 100px;
+    transition: 1s;
+    border-radius: 5%;
+}
+.rect53:hover{
+    box-shadow: inset 20px 0 50px black;
+    transform: scale(1.2);
+    z-index: 2;
+}
+.rect54{
+    width: 250px;
+    height: 400px;
+    background: url(l8.jpeg) no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left: 20px;
+    margin-top: 100px;
+    transition: 1s;
+    border-radius: 5%;
+}
+.rect54:hover{
+    box-shadow: inset 20px 0 50px black;
+    transform: scale(1.2);
+    z-index: 2;
+}
+/*lehanga Section*/
+.heaad{
+    width: auto;
+    height: 60px;
+    border: 2px solid palevioletred;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    position: sticky;
+    font-family: 'Great Vibes', cursive;
+    background: url(WED.jpg) no-repeat;
+    background-size: cover;
+    box-shadow: rgba(173,6,6,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#back{
+    width: auto;
+    height: fit-content;
+    background: url(wed1.jpg) no-repeat;
+    background-size: cover;
+}
+.shop1{
+width: 500px;
+height: 200px;
+border: 1px solid palevioletred;
+margin: auto;
+margin-top: 55px;
+background-color:rgba(219,112,147,0.5);
+border-radius: 4rem 5rem 6rem 7rem;
+transition: 1s;
+}
+.name1{
+width: auto;
+height: 70px;
+margin-top: 10px;
+text-align: center;
+font-size: 40px;
+box-sizing: border-box;
+padding-left: 10px;
+padding-top: 20px;
+
+}
+.shop1:hover{
+    transform: scale(1.09);
+    z-index: 2;
+    background-color:#f25278;
+}
+.shop2{
+width: 500px;
+height: 200px;
+border: 1px solid palevioletred;
+margin: auto;
+margin-top: 20px;
+background-color:rgba(219,112,147,0.9);
+border-radius: 4rem 5rem 6rem 7rem;
+transition: 1s;
+}
+.shop2:hover{
+    transform: scale(1.09);
+    z-index: 2;
+    background-color:#f25278;
+}
+.name2{
+width: auto;
+height: 70px;
+margin-top: 10px;
+text-align: center;
+font-size: 40px;
+box-sizing: border-box;
+padding-left: 10px;
+padding-top: 20px;
+}
+.shop3{
+    width: 500px;
+    height: 200px;
+    border: 1px solid palevioletred;
+    margin: auto;
+    margin-top: 20px;
+    background-color:rgba(219,112,147,0.5);
+    border-radius: 4rem 5rem 6rem 7rem;
+    transition: 1s;
+}
+.shop3:hover{
+    transform: scale(1.09);
+    z-index: 2;
+    background-color:#f25278;
+}
+    .name3{
+    width: auto;
+    height: 70px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+    .shop4{
+    width: 500px;
+    height: 200px;
+    border: 1px solid palevioletred;
+    margin: auto;
+    margin-top: 20px;
+    background-color:rgba(219,112,147,0.9);
+    border-radius: 4rem 5rem 6rem 7rem;
+    transition: 1s;
+}
+.shop4:hover{
+    transform: scale(1.09);
+    z-index: 2;
+    background-color:#f25278;
+}
+    .name4{
+    width: auto;
+    height: 70px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.shop5{
+    width: 500px;
+    height: 200px;
+    border: 1px solid palevioletred;
+    margin: auto;
+    margin-top: 20px;
+    background-color:rgba(219,112,147,0.5);
+    border-radius: 4rem 5rem 6rem 7rem;
+    transition: 1s;
+}
+.shop5:hover{
+    transform: scale(1.09);
+    z-index: 2;
+    background-color:#f25278;
+}
+    .name5{
+    width: auto;
+    height: 70px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-top: 20px;
+}
+
+/*make-up Section*/
+#head1{
+    width: auto;
+    height: 60px;
+    border: 2px solid palevioletred;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    position: sticky;
+    font-family: 'Great Vibes', cursive;
+    background: url(WED.jpg) no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#back3{
+    width: auto;
+    height: 1200;
+    background: url(wed1.jpg) no-repeat;
+    background-size: cover;
+}
+.make1{
+    width: 500px;
+    height: 200px;
+    border: 1px solid palevioletred;
+    margin: auto;
+    margin-top: 55px;
+    background-color:rgba(219,112,147,0.5);
+    border-radius: 8rem 9rem 6rem 4rem;
+    transition: 1s;
+ }
+ .make1:hover{
+    transform: scale(1.09);
+    z-index: 2;
+    background-color:#f25278;
+}
+.call1{
+    width: auto;
+    height: 70px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 20px;
+    }
+    .make2{
+        width: 500px;
+        height: 200px;
+        border: 1px solid palevioletred;
+        margin: auto;
+        margin-top: 20px;
+        background-color:rgba(219,112,147,0.9);
+        border-radius: 8rem 9rem 6rem 4rem;
+        transition: 1s;
+    }
+    .make2:hover{
+       transform: scale(1.09);
+       z-index: 2;
+       background-color:#f25278;
+   }
+.call2{
+        width: auto;
+        height: 70px;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 40px;
+        box-sizing: border-box;
+        padding-left: 10px;
+        padding-top: 20px;
+}
+.make3{
+    width: 500px;
+    height: 200px;
+    border: 1px solid palevioletred;
+    margin: auto;
+    margin-top: 20px;
+    background-color:rgba(219,112,147,0.5);
+    border-radius: 8rem 9rem 6rem 4rem;
+    transition: 1s;
+}
+.make3:hover{
+   transform: scale(1.09);
+   z-index: 2;
+   background-color:#f25278;
+}
+.call3{
+    width: auto;
+    height: 70px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 20px;
+    }
+.make4{
+        width: 500px;
+        height: 200px;
+        border: 1px solid palevioletred;
+        margin: auto;
+        margin-top: 20px;
+        background-color:rgba(219,112,147,0.9);
+        border-radius: 8rem 9rem 6rem 4rem;
+        transition: 1s;
+    }
+    .make4:hover{
+       transform: scale(1.09);
+       z-index: 2;
+       background-color:#f25278;
+   }
+.call4{
+        width: auto;
+        height: 70px;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 40px;
+        box-sizing: border-box;
+        padding-left: 10px;
+        padding-top: 20px;
+}
+.make5{
+    width: 500px;
+    height: 200px;
+    border: 1px solid palevioletred;
+    margin: auto;
+    margin-top: 20px;
+    background-color:rgba(219,112,147,0.5);
+    border-radius: 8rem 9rem 6rem 4rem;
+    transition: 1s;
+}
+.make5:hover{
+   transform: scale(1.09);
+   z-index: 2;
+   background-color:#f25278;
+}
+.call5{
+    width: auto;
+    height: 70px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+/*Cake section*/
+#back1{
+    width: auto;
+    height: 1200px;
+    background: url(wed1.jpg) no-repeat;
+    background-size: cover;
+}
+.cake1{
+    width: 700px;
+    height: 200px;
+    border: 1px solid palevioletred;
+    margin: auto;
+    margin-top: 55px;
+    background-color:rgba(219,112,147,0.5);
+    border-radius: 4rem 5rem 6rem 7rem;
+    transition: 1s;
+}
+.cake1:hover{
+   transform: scale(1.09);
+   z-index: 2;
+   background-color:#f25278;
+}
+.bakery1{
+    width: auto;
+    height: 70px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-top: 20px;
+}
+.cake2{
+    width: 700px;
+    height: 200px;
+    border: 1px solid palevioletred;
+    margin: auto;
+    margin-top: 20px;
+    background-color:rgba(219,112,147,0.9);
+    border-radius: 4rem 5rem 6rem 7rem;
+    transition: 1s;
+}
+.cake2:hover{
+   transform: scale(1.09);
+   z-index: 2;
+   background-color:#f25278;
+}
+.bakery2{
+    width: auto;
+    height: 70px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-top: 20px;
+}   
+
+.cake3{
+    width: 700px;
+    height: 200px;
+    border: 1px solid palevioletred;
+    margin: auto;
+    margin-top: 20px;
+    background-color:rgba(219,112,147,0.5);
+    border-radius: 4rem 5rem 6rem 7rem;
+    transition: 1s;
+}
+.cake3:hover{
+   transform: scale(1.09);
+   z-index: 2;
+   background-color:#f25278;
+}
+.bakery3{
+    width: auto;
+    height: 70px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-top: 20px;
+}
+.cake4{
+    width:700px;
+    height: 200px;
+    border: 1px solid palevioletred;
+    margin: auto;
+    margin-top: 20px;
+    background-color:rgba(219,112,147,0.9);
+    border-radius: 4rem 5rem 6rem 7rem;
+    transition: 1s;
+}
+.cake4:hover{
+   transform: scale(1.09);
+   z-index: 2;
+   background-color:#f25278;
+}
+.bakery4{
+    width: auto;
+    height: 70px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-top: 20px;
+}   
+.cake5{
+    width: 700px;
+    height: 200px;
+    border: 1px solid palevioletred;
+    margin: auto;
+    margin-top: 20px;
+    background-color:rgba(219,112,147,0.5);
+    border-radius: 4rem 5rem 6rem 7rem;
+    transition: 1s;
+}
+.cake5:hover{
+   transform: scale(1.09);
+   z-index: 2;
+   background-color:#f25278;
+}
+.bakery5{
+    width: auto;
+    height: 70px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-top: 20px;
+}   
+/*Mehandi section*/
+#back2{
+    width: auto;
+    height: 1200px;
+}
+.mehandi1{
+    width: 500px;
+    height: 200px;
+    border: 1px solid palevioletred;
+    margin: auto;
+    margin-top: 55px;
+    background-color:rgba(219,112,147,0.5);
+    border-radius: 4rem 5rem 6rem 7rem;
+    transition: 1s;
+}
+.mehandi1:hover{
+   transform: scale(1.09);
+   z-index: 2;
+   background-color:#f25278;
+}
+.artist1{
+    width: auto;
+    height: 70px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.mehandi2{
+    width: 500px;
+    height: 200px;
+    border: 1px solid palevioletred;
+    margin: auto;
+    margin-top: 20px;
+    background-color:rgba(219,112,147,0.9);
+    border-radius: 4rem 5rem 6rem 7rem;
+    transition: 1s;
+}
+.mehandi2:hover{
+   transform: scale(1.09);
+   z-index: 2;
+   background-color:#f25278;
+}
+.artist2{
+    width: auto;
+    height: 70px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 20px;
+}   
+.mehandi3{
+    width: 500px;
+    height: 200px;
+    border: 1px solid palevioletred;
+    margin: auto;
+    margin-top: 20px;
+    background-color:rgba(219,112,147,0.5);
+    border-radius: 4rem 5rem 6rem 7rem;
+    transition: 1s;
+}
+.mehandi3:hover{
+   transform: scale(1.09);
+   z-index: 2;
+   background-color:#f25278;
+}
+.artist3{
+    width: auto;
+    height: 70px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.mehandi4{
+    width: 500px;
+    height: 200px;
+    border: 1px solid palevioletred;
+    margin: auto;
+    margin-top: 20px;
+    background-color:rgba(219,112,147,0.9);
+    border-radius: 4rem 5rem 6rem 7rem;
+    transition: 1s;
+}
+.mehandi4:hover{
+   transform: scale(1.09);
+   z-index: 2;
+   background-color:#f25278;
+}
+.artist4{
+    width: auto;
+    height: 70px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 20px;
+}   
+.mehandi5{
+    width: 500px;
+    height: 200px;
+    border: 1px solid palevioletred;
+    margin: auto;
+    margin-top: 20px;
+    background-color:rgba(219,112,147,0.5);
+    border-radius: 4rem 5rem 6rem 7rem;
+    transition: 1s;
+}
+.mehandi5:hover{
+   transform: scale(1.09);
+   z-index: 2;
+   background-color:#f25278;
+}
+.artist5{
+    width: auto;
+    height: 70px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 20px;
+}   
+/*Cinema section*/
+#back3{
+    width: auto;
+    height: 1200px;
+    background: url(wed1.jpg) no-repeat;
+    background-size: cover;
+}
+.cinema1{
+    width: 700px;
+    height: 200px;
+    border: 1px solid palevioletred;
+    margin: auto;
+    margin-top: 55px;
+    background-color:rgba(219,112,147,0.5);
+    border-radius: 4rem 5rem 6rem 7rem;
+    transition: 1s;
+}
+.cinema1:hover{
+   transform: scale(1.09);
+   z-index: 2;
+   background-color:#f25278;
+}
+.grapher1{
+    width: auto;
+    height: 70px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.cinema2{
+    width: 700px;
+    height: 200px;
+    border: 1px solid palevioletred;
+    margin: auto;
+    margin-top: 20px;
+    background-color:rgba(219,112,147,0.9);
+    border-radius: 4rem 5rem 6rem 7rem;
+    transition: 1s;
+}
+.cinema2:hover{
+   transform: scale(1.09);
+   z-index: 2;
+   background-color:#f25278;
+}
+.grapher2{
+    width: auto;
+    height: 70px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 20px;
+}   
+.cinema3{
+    width: 700px;
+    height: 200px;
+    border: 1px solid palevioletred;
+    margin: auto;
+    margin-top: 20px;
+    background-color:rgba(219,112,147,0.5);
+    border-radius: 4rem 5rem 6rem 7rem;
+    transition: 1s;
+}
+.cinema3:hover{
+   transform: scale(1.09);
+   z-index: 2;
+   background-color:#f25278;
+}
+.grapher3{
+    width: auto;
+    height: 70px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.cinema4{
+    width: 700px;
+    height: 200px;
+    border: 1px solid palevioletred;
+    margin: auto;
+    margin-top: 20px;
+    background-color:rgba(219,112,147,0.9);
+    border-radius: 4rem 5rem 6rem 7rem;
+    transition: 1s;
+}
+.cinema4:hover{
+   transform: scale(1.09);
+   z-index: 2;
+   background-color:#f25278;
+}
+.grapher4{
+    width: auto;
+    height: 70px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 20px;
+}   
+.cinema5{
+    width: 700px;
+    height: 200px;
+    border: 1px solid palevioletred;
+    margin: auto;
+    margin-top: 20px;
+    background-color:rgba(219,112,147,0.5);
+    border-radius: 4rem 5rem 6rem 7rem;
+    transition: 1s;
+}
+.cinema5:hover{
+   transform: scale(1.09);
+   z-index: 2;
+   background-color:#f25278;
+}
+.grapher5{
+    width: auto;
+    height: 70px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 20px;
+}   
+@media (max-width:768px) {
+    .bride{
+        width: auto;
+        height:3000px;
+        
+    }
+    .row1{
+        width: 1600px;
+        height: 400px;
+        margin-top: 150px;
+    }
+    .rect1{
+        width: 600px;
+        height: 900px;
+        margin-left: 80px;
+        margin-top: 120px;
+        float: left;
+        
+    }
+    #btn-1{
+        width:500px;
+        height: 150px;
+        margin-top: 950px;
+        margin-left: 50px;
+        font-size: 50px;
+    }
+    .rect2{
+        width: 600px;
+        height: 900px;
+        margin-left: 80px;
+        margin-top: 120px;
+        float: left;
+    }
+    #btn-2{
+        width:500px;
+        height: 150px;
+        margin-top: 950px;
+        margin-left: 50px;
+        font-size: 50px;
+    }
+    .rect3{
+        width: 600px;
+        height: 900px;
+        margin-top: 350px;
+        margin-left: 400px;
+
+    }
+    #btn-3{
+        width:500px;
+        height: 150px;
+        margin-top: 950px;
+        margin-left: 50px;
+        font-size: 50px;
+    }
+    .row2{
+        width: 1600px;
+        height: 400px;
+        margin-top: 150px;
+    }
+    .rect4{
+        width: 600px;
+        height: 900px;
+        margin-left: 80px;
+        margin-top: 200px;
+        float: left;
+        
+
+    }
+    #btn-4{
+        width:500px;
+        height: 150px;
+        margin-top: 950px;
+        margin-left: 50px;
+        font-size: 50px;
+    }
+    .rect5{
+        width: 600px;
+        height: 900px;
+        margin-left: 80px;
+        margin-top: 200px;
+        float: left;
+
+    }
+    #btn-5{
+        width:500px;
+        height: 150px;
+        margin-top: 950px;
+        margin-left: 50px;
+        font-size: 50px;
+    }
+    /*lehanga mobile*/
+   
+
+}

@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, inital-scale=1.0"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
+  
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title> WEDDING </title>
+</head>
+<body>
+    
+
+    <!-- HEADER-->
+    <header>
+        <a href="/" class="logo"> BlissfulKnot </a>
+        <a href="#" class="menu" onclick="toggleMenu();">
+            <ion-icon class="open" name="menu-outline"></ion-icon>
+            <ion-icon class="close" name="close-outline"></ion-icon>
+        </a>
+        <ul class="nav">
+            <li><a class="nav-btn active" href="/" onclick="resetHeader();"> <ion-icon name="home-outline"></ion-icon></a></li>
+            <li><a class="nav-btn" href="#"data-target="about">ABOUT</a></li>
+            <li><a class="nav-btn"  href="#"data-target="services">SERVICES</a></li>
+
+            <!--            
+                <li><a class="nav-btn" href="#"data-target="portfolio">PORTFOLIO</a></li>-->
+
+            <li><a class="nav-btn" href="#"data-target="contact">CONTACT</a></li>
+        </ul> 
+        <div class="search">
+            <input type="text" placeholder="search"/>
+            <ion-icon name="search-outline"></ion-icon>        
+        </div>
+        </header>
+        <!--mobile navigation-->
+        <ul class="nav-mobile">
+            <li>
+                <a class="nav-btn active" href="/" onclick="resetHeader();">
+                <ion-icon name="home-outline"></ion-icon>
+                </a>
+            </li>
+
+            <li>
+                <a class="nav-btn" href="#" data-target="about">
+                    About
+                </a>
+            </li>
+
+            <li>
+                <a class="nav-btn" href="#" data-target="services">
+                    Services
+                </a>
+            </li>
+
+            <li>
+                <a class="nav-btn" href="#" data-target="contact">
+                    Contact 
+                </a>
+            </li>
+
+        </ul>
+        <!--banner-->
+
+        <div class="banner container-fluid">
+            <div class="bg-slide slide-1 active">
+                <div class="content">
+                    <h1>
+                        Blissful Knot
+                    </h1><br>
+                   <p>
+               "Two souls with but a single thought, two hearts that beat as one!"
+               <br>
+               "A wedding day is a special moment to cherish for rest of the life!" 
+            </p>
+            <div class="btnn">
+                <button type="button" class="btn-b" onclick="redirect();"> Bride's Stuff</button>
+                <button type="button" class="btn-g" onclick="redirect1();">Groom's Stuff</button>
+            </div>
+            </div>
+            <div class="circle bg">
+                <img src="hi.jpg" alt=""  style="transform: scale(1.5);"/>
+                <div class="circle large">
+                <img src="hi.jpg" alt=""  style="transform: scale(1.0);"/>
+                <div class="circle small">
+                <img src="hi.jpg" alt=""  style="transform: scale(1.0);"/>
+                </div>
+                </div>
+            </div>
+
+            </div>
+
+            <div class="bg-slide slide-2">
+                <div class="content">
+                    <h1>
+                        Bride's Stuff
+                    </h1><br>
+            <p>
+                A wedding celebration will always be a big deal in our society.
+                For the bride, the wedding day is one of her best days.
+            <br>
+                Step into a world of bridal elegance!Our collection features 
+                enchanting lehangas that weave dreams and jewellery that crowns every bride.
+            
+            <br>
+                From mesmerizing lehangas to captivating jewellery 
+                we are here to adorn every bride in the essence of pure elegance.
+            </p>
+            </div>
+            <div class="circle bg">
+                <img src="97.jpg" alt="" style="transform: scale(1.5);"/>
+                <div class="circle large">
+                <img src="97.jpg" alt="" style="transform: scale(1.0);"/>
+                <div class="circle small">
+                <img src="97.jpg" alt="" style="transform: scale(1.0);"/>
+                </div>
+                </div>
+            </div>
+
+            </div>
+
+            <div class="bg-slide slide-3">
+                <div class="content">
+                    <h1>
+                       Groom's Stuff
+                    </h1><br>
+            <p>
+                "Elegance meets tradition as the groom dons a finely tailored wedding sherwani and a confident smile".
+            </p>
+            <p>
+                "The groom radiates timeless charm in a traditional sherwani,a symbol of grace and cultural richness.Paired with intricate embroidery, a classic turban and a genuine smile".
+            </p>
+            <p>
+                Selecting and getting groom's wedding dress is very challenging at times so we are here to assist you.So we will provide you a variety of shops where you can choose your best to look classic on your big day.
+            </p>
+            </div>
+            <div class="circle bg">
+                <img src="10x.jpg" alt="" style="transform: scale(1.5);"/>
+                <div class="circle large">
+                <img src="10x.jpg" alt="" style="transform: scale(1.0);"/>
+                <div class="circle small">
+                <img src="10x.jpg" alt="" style="transform: scale(1.0);"/>
+                </div>
+                </div>
+            </div>
+
+            </div>
+<ul class="slide-loader">
+    <li><a class="slide-btn active" data-target="slide-1">1</a></li>
+    <li><a class="slide-btn" data-target="slide-2">2</a></li>
+    <li><a class="slide-btn" data-target="slide-3">3</a></li>
+</ul>
+<div class="share">
+    <p>Share</p>
+    <a href="#"><ion-icon name="share-social-outline"></ion-icon></a>
+</div>
+
+<div class="lead">
+    <svg viewBox="0 0 100 100" width="100" height="100">
+        <defs>
+            <path
+            id="circle"
+            d="
+            M 50, 50
+            m -37, 0
+            a 37,37 0 1,1 74,0
+            a 37,37 0 1,1 -74,0"
+            />
+            </defs>
+            <text font-size="17">
+                <textPath xlink:href="#circle">
+                   Hoping all your dreams are fulfilled ! 
+                </textPath>
+            </text>
+        </svg>
+        <a href="#" class="move-down" onclick="initNavigation();">
+            <ion-icon name="chevron-down-outline"></ion-icon></a>
+    </div>
+    </div>
+
+    <!-- *******Main start******-->
+    <main> 
+        <!-- About section-->
+        <section id="about" class="about"> 
+            <div class="container">
+                <div class="row">
+                    <h1> About-Us</h1>
+                </div>
+                <!--
+                <div class="row"> 
+                    <div class="col-lg-6">
+                        <div class="img-box">
+                            <img src="shoes1.jpg" alt="" class="img-fluid" />
+                            <img src="tree1.jpg" alt="" class="corner-img" />-->
+                        <!--</div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="shoes.jpg" alt="" class="section-bg-img" />-->
+                        
+                       <!--<h4> Bride and Groom</h4>
+                        <p>When it comes to wedding,passion is very important wheather picking outfits for groom and bride, selecting a good make-up artist or choosing a professional videographer. </p>
+                        <p> Selecting and getting information about their work and expenses is very difficult and challenging, so we are here to assist you.</p>
+                        <p>We will provide you with the list of make-up artists, clothing shops, cake shops and videographers so that you can get their information very easily.</p>
+                        
+                    </div>
+                </div>-->
+                <div class="full">
+                    <div class="img">
+                        <img src="3.jpg" alt="" />
+                    </div>
+                    <div class="text">
+                       <!--<h4> Bride and Groom</h4>--> 
+                        <p>When it comes to wedding,passion is very important wheather picking outfits for groom and bride, selecting a good make-up artist or choosing a professional videographer.
+                        Selecting and getting information about their work and expenses is very difficult and challenging, so we are here to assist you.
+                       We will provide you with the list of make-up artists, clothing shops, cake shops and videographers so that you can get their information very easily.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- services section-->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="row">
+                    <h1>
+                       Services We Provide
+                    </h1>
+                </div>
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-lg-4 d-flex justify-content-center align-items-center">
+                        <div class="card1">
+                            <div class="img-box1">
+                                <img src="l.jpg" alt=""/>
+                            </div>
+                            <div class="details">
+                                <h4 style="text-align: center;"> Bride's Stuff</h4>
+                            </div>
+                            <button type="button" class="section-1" onclick="redirect();">Discover More</button>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 d-flex justify-content-center align-items-center">
+                        <div class="card2">
+                            <div class="img-box2">
+                                <img src="b.jpg" alt=""/>
+                            </div>
+                            <div class="details">
+                                <h4 style="text-align: center;"> Groom's Stuff</h4>
+                            </div>
+                            <button type="button" class="section-2" onclick="redirect1();">Discover More</button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        
+        <!--Contact section-->
+        <section id="contact" class="contact">
+           <div class="container">
+            <div class="row">
+                <h1> Contact-Us </h1>
+            </div>
+            <div class="info">
+                <div class="email">
+                    <ion-icon name="mail-outline"></ion-icon>
+                <h4> Email:</h4>
+                <p> wedding@gmail.com</p>
+                </div>
+                <br>
+                <div class="phone">
+                    <ion-icon name="call-outline"></ion-icon>
+                    <h4> Call:</h4>
+                    <p> +91 6005973279 </p>
+                </div>
+                </div>
+                <div class="form" >
+                <form action="connect.php" method="POST"  onsubmit="sendEmail();">
+                     <input type="text" id="name" placeholder="Enter Your Name" name="name" required/>
+
+                    <input type="email" id="email" placeholder="Enter Your Email"name="email" required/>
+
+                    Feedback: <textarea id="feedback" row="5" placeholder="Enter Feedback" name="feedback"> </textarea>
+
+                    <button type="submit">
+                        Send 
+                    </button>
+                </form>
+                </div>
+                <!--<div class="form">
+                <form>
+    
+                       <div class="name1" >
+                        Name: <input type="text" class="form-control1" placeholder="Enter Your Name" required/>
+                       </div> <br>
+                       <div class="email1">
+                        Email: <input type="email" class="form-control2" placeholder="Enter Your Email" required/>
+                       </div>
+                    <br>
+                       <div class="feedback">
+                         Feedback: <textarea
+                          class="form-control"
+                          name="feedback"
+                          id="feedback"
+                          rows="5"
+                          placeholder="feed">
+
+                          </textarea>
+                       </div>
+                </form>
+                </div>
+        
+            <!--<div class="row mt-5">
+            <div class="col-lg-4">
+                <div class="info">
+                <div class="email">
+            <ion-icon name="mail-outline"></ion-icon>
+                <h4> Email:</h4>
+                <p> wedding@gmail.com</p>
+            </div>
+            <br><br>
+            <div class="Phone">
+                <ion-icon name="call-outline"></ion-icon>
+                <h4> Call:</h4>
+                <p> +91 6005973279 </p>
+            </div>
+            </div>
+            </div> 
+            <div class="col-lg-8 mt-5 mt-lg-0">
+                <form>
+                    <div class="row">
+                       <div class="col-md-6 form-group" >
+                        <input type="text" class="form-control1" placeholder="Enter Your Name" required/>
+                       </div> 
+                       <div class="col-md-6 form-group mt-3 mt-md-0">
+                        <input type="email" class="form-control2" placeholder="Enter Your Email" required/>
+                       </div>
+                    </div>
+                </form>
+
+            </div>
+            </div>-->
+            </div>
+        </section>
+   </main>
+
+
+    
+
+<!-- javascript venders-->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+           
+       
+
+<!-- CUSTOMISED JAVASCRIPT-->
+                
+<script src="main.js"></script>
+<!--<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+    function sendEmail(){
+        Email.send({
+            Host : "smtp.yourisp.com",
+            Username : "username",
+            Password : "password",
+            To : 'zehraamina@gmail.com',
+            From : 'manshaillahi@gmail.com',
+            Subject : "wedding query",
+            Body : "this is the body"
+        }).then(
+            message => alert(message)
+        );
+    }
+</script>-->
+</body>
+</html>
