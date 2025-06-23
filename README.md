@@ -50,7 +50,7 @@ The website is designed to simplify wedding planning by allowing users to browse
 - HTML5  
 - CSS3  
 - JavaScript  
-- Bootstrap *(if used)*  
+- Bootstrap   
 - Responsive Design
 
 ---
